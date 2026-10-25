@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-navy-950: #081829;
+  --color-navy-900: #0F2942;
+  --color-navy-800: #163A5C;
+  --color-navy-700: #1F4E7A;
+
+  --color-amber-500: #E58A13;
+  --color-amber-600: #D97706;
+  --color-amber-700: #B45309;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+}
+
